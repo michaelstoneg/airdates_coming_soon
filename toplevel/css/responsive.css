@@ -121,11 +121,14 @@
 	}
 }
 
-@media (max-width: 430px) {
+@media (max-width: 550px) {
   .aboutImage {
     width: 100%;
   }
   #screen1, #screen2 {
     float: none;
+  }
+  .servicesImage {
+    width: 80%;
   }
 }
