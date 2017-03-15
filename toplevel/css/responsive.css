@@ -79,9 +79,9 @@
 		right: 30px;
 		left: auto;
 	}
-	.content_tab_inner img {
+	/*.content_tab_inner img {
 		max-width: 100%;
-	}
+	}*/
 }
 
 @media (max-width: 1024px) and (orientation: landscape) {
@@ -119,4 +119,13 @@
 	#mainmenu li + li {
 		margin-left: 15px;
 	}
+}
+
+@media (max-width: 430px) {
+  .aboutImage {
+    width: 100%;
+  }
+  #screen1, #screen2 {
+    float: none;
+  }
 }
