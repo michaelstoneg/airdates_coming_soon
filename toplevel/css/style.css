@@ -465,6 +465,7 @@ ul.slides:after {
 	padding: 0 25px;
 	max-height: 100%;
 	overflow: scroll;
+  background: black;
 }
 #content .close_content {
 	position: absolute;
@@ -655,6 +656,7 @@ ul.slides:after {
 }
 #contacts_form {
 	padding: 12px 70px 0 0;
+  margin: 1%;
 }
 #contacts_form input[type='text'],
 #contacts_form input[type='email'],
